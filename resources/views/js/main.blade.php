@@ -36,12 +36,26 @@
 <script src="{{asset('assets/admin/pages/scripts/index3.js')}}" type="text/javascript"></script>
 <script src="{{asset('assets/admin/pages/scripts/tasks.js')}}" type="text/javascript"></script>
 <!-- END PAGE LEVEL SCRIPTS -->
+{{-- For Chars --}}
+<script src="{{asset('assets/global/plugins/flot/jquery.flot.min.js')}}" type="text/javascript"></script>
+<script src="{{asset('assets/global/plugins/flot/jquery.flot.resize.min.js')}}" type="text/javascript"></script>
+<script src="{{asset('assets/global/plugins/flot/jquery.flot.pie.min.js')}}" type="text/javascript"></script>
+<script src="{{asset('assets/global/plugins/flot/jquery.flot.stack.min.js')}}" type="text/javascript"></script>
+<script src="{{asset('assets/global/plugins/flot/jquery.flot.crosshair.min.js')}}" type="text/javascript"></script>
+<script src="{{asset('assets/global/plugins/flot/jquery.flot.categories.min.js')}}" type="text/javascript"></script>
+<script src="{{asset('assets/admin/pages/scripts/charts-flotcharts.js')}}" type="text/javascript"></script>
+
+{{-- For Chars --}}
 <script>
 jQuery(document).ready(function() {    
    Metronic.init(); // init metronic core componets
    Layout.init(); // init layout
    Demo.init(); // init demo features 
-    Index.init(); // init index page
+   //  Index.init(); // init index page
+    ChartsFlotcharts.init();
+   ChartsFlotcharts.initCharts();
+   ChartsFlotcharts.initPieCharts();
+   ChartsFlotcharts.initBarCharts();
  Tasks.initDashboardWidget(); // init tash dashboard widget  
 });
 </script>

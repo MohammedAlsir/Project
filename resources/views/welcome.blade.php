@@ -238,8 +238,107 @@ License: You must have a valid license purchased only from themeforest(the above
 				</div>
 			</div>
 			<!-- END PAGE CONTENT INNER -->
+			{{-- BIGIN CHART --}}
+			<div class="row">
+				<div class="col-md-12">
+					<div class="portlet box blue">
+						<div class="portlet-title">
+							<div class="caption">
+								<i class="fa fa-gift"></i>الارباح السنوية
+							</div>
+							<div class="tools">
+								<a href="javascript:;" class="collapse">
+								</a>
+								<a href="#portlet-config" data-toggle="modal" class="config">
+								</a>
+								<a href="javascript:;" class="reload">
+								</a>
+								<a href="javascript:;" class="remove">
+								</a>
+							</div>
+						</div>
+						<div class="portlet-body">
+							<div id="chart_1_1_legendPlaceholder">
+							</div>
+							<div id="chart_1_1" class="chart">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="portlet box yellow">
+						<div class="portlet-title">
+							<div class="caption">
+								<i class="fa fa-gift"></i>التقرير رقم 1
+							</div>
+							<div class="tools">
+								<a href="#portlet-config" data-toggle="modal" class="config">
+								</a>
+								<a href="javascript:;" class="reload">
+								</a>
+							</div>
+						</div>
+						<div class="portlet-body">
+							<h4>مخطط يوضح  التأمينات الحالية</h4>
+							<div id="pie_chart" class="chart">
+							</div>
+						</div>
+					</div>
+					<div class="portlet box purple">
+						<div class="portlet-title">
+							<div class="caption">
+								<i class="fa fa-gift"></i>التقرير رقم 2
+							</div>
+							<div class="tools">
+								<a href="#portlet-config" data-toggle="modal" class="config">
+								</a>
+								<a href="javascript:;" class="reload">
+								</a>
+							</div>
+						</div>
+						<div class="portlet-body">
+							<h4>مخطط يوضح الطلبات الجديدة</h4>
+							<div id="pie_chart_1" class="chart">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="portlet box blue">
+						<div class="portlet-title">
+							<div class="caption">
+								<i class="fa fa-gift"></i>التقرير رقم 3
+							</div>
+							
+						</div>
+						<div class="portlet-body">
+							<h4>مخطط يوضح الطلبات الحالية</h4>
+							<div id="donut" class="chart">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="portlet box red">
+						<div class="portlet-title">
+							<div class="caption">
+								<i class="fa fa-gift"></i>التقرير رقم 4
+							</div>
+						
+						</div>
+						<div class="portlet-body">
+							<h4>مخطط يوضح نسبة العملاء</h4>
+							<div id="interactive" class="chart">
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			{{-- END   CHART --}}
 		</div>
 	</div>
+	
 	<!-- END CONTENT -->
 </div>
 <!-- END CONTAINER -->
@@ -254,6 +353,7 @@ License: You must have a valid license purchased only from themeforest(the above
 </div>
 <!-- END FOOTER -->
 @include('js.main')
+
 </body>
 <!-- END BODY -->
 </html>
