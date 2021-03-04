@@ -95,7 +95,7 @@ License: You must have a valid license purchased only from themeforest(the above
 <!-- BEGIN CONTAINER -->
 <div class="page-container">
 	<!-- BEGIN SIDEBAR -->
-	@include('layout.sidebar')
+	@include('layout.sidebar_record')
 	<!-- END SIDEBAR -->
 	<!-- BEGIN CONTENT -->
 	<div class="page-content-wrapper">
@@ -106,7 +106,7 @@ License: You must have a valid license purchased only from themeforest(the above
 				<div class="page-title">
 					<h1>لوحة التحكم  <span style="font-size: 15px;
                         font-weight: bold;
-                        color: red;margin-right: 10px;">قسم السجلات</span></h1>
+                        color: red;margin-right: 10px;">قسم التأمينات</span></h1>
 				</div>
 				<!-- END PAGE TITLE -->
 				

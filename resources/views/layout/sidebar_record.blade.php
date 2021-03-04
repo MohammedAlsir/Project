@@ -18,13 +18,13 @@
                 </a>
             </li>
             <li>
-                <a href="javascript:;">
+                <a href="{{route('order')}}">
                 <i class="icon-basket"></i>
                 <span class="title">طلبات التعويض</span>
                 </a>
             </li>
             <li>
-                <a href="javascript:;">
+                <a href="{{route('order')}}">
                 <i class="icon-basket"></i>
                 <span class="title">طلبات المعاش</span>
                 </a>
@@ -33,7 +33,7 @@
             <li class="last ">
                 <a href="javascript:;">
                 <i class="icon-pointer"></i>
-                <span class="title">الشكاوى </span>
+                <span class="title">الطلبات الراجعة </span>
                 </a>
                
             </li>

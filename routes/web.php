@@ -17,6 +17,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::view('/order', 'record.order')->name('order');
+
+
+
+
+// Forms
 Route::view('/form', 'forms.form_controls_md')->name('form');
 Route::view('/form2', 'forms.form_controls')->name('form2');
 Route::view('/form3', 'forms.form_dropzone')->name('form3');
